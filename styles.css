@@ -69,6 +69,11 @@ img {
     margin-right: 0px;
     width: 60%;
 }
+.my-form label {
+    display: block;
+    color: aquamarine;
+}
+
 
 @media (min-width: 1024px) {
     body {    
@@ -81,7 +86,10 @@ img {
         line-height: 1.2;
         color: rgb (75,75,75);
     }
-    
+    .my-form label {
+        display: block;
+        background-color: rgb(255, 127, 202);
+    }
     header {
         background-color: rgb(195, 239, 250);
         padding-top: 10px;
@@ -113,5 +121,8 @@ img {
     a:visited { 
         text-decoration: non;
         color: rgb(75,75,75);
-        font-weight: bolder;   
+        font-weight: bolder;  
+    
+  
+        
 }

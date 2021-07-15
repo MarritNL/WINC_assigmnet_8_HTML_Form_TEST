@@ -18,23 +18,16 @@
        
     <main>
         <section>
-            <h3> Meer informatie ontvangen? TEST TEST </h3>
-            <form name="contact" method="POST" data-netlify="true">
-                <div class="form_group">
-                    <label> Name: </label>
-                    <input type="text" name="name" value="your name"/>
-                </div>
-                <div class="form_group">
-                    <label> Email: </label>
-                    <input type="email" name="Email" value="your email"/>
-                </div>
-                <div class="form_group">
-                    <label> Question: </label>
-                    <textarea name="question" rows=10>
-                        your question
-                    </textarea> 
-                </div>
-            </form> 
+            <h3> Meer informatie ontvangen? </h3>
+            <form action="/action_page.php">
+                <label for="name">naam:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">email:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="question">vraag:</label><br>
+                <textarea rows=10 id="question" name="question"></textarea><br>             
+                <input type="submit" value="Submit">
+              </form>
         </section> 
     </main>
     <footer>
